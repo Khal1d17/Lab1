@@ -1,0 +1,8 @@
+import math
+x=((0.461)**(0.461))*math.sin(3)-0.356*math.cos(3)
+t=(math.tan(4))** (1/(2-math.log((4)**(1/4),10)))
+if x<(10*t):
+    n=(abs(x*math.e + t*(1/math.e)))**(1/2)
+elif x>= 10*t:
+    n=abs(x+t)**(1/2)
+print(n)
