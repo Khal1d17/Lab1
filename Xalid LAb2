@@ -1,0 +1,11 @@
+def n(a,b):
+    if a**2 + b > 4:
+        return 3 * a + 8 * b
+    elif a**2 + b ==4 :
+        return 9 * b - 2 * a
+    else:
+        return 6 * a + 7 * b
+a=(-2)
+b=2
+k=n(a,b)
+print(k)
